@@ -6,4 +6,4 @@ a.app.register_blueprint(c.routes)
 
 
 if __name__ == '__main__':
-    a.app.run(debug=True, port=5000)
+    a.app.run(host='0.0.0.0')
